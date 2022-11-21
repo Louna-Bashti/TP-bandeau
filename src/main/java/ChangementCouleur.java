@@ -29,6 +29,10 @@ public class ChangementCouleur extends Effet {
 
     @Override
     public void runEffect(Bandeau myBandeau) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
         for(int i = 1; i<=getRepeat(); i++) {
             myBandeau.setMessage(getChain());
             myBandeau.setForeground(getColor());
