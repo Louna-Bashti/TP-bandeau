@@ -4,12 +4,6 @@ import java.awt.*;
 
 public class Zoom extends Effet {
 
-
-    private String chain;
-    private int repeat;
-    private int time;
-
-
     public Zoom (String myChain, int myRepeat, int myTime) {
         super(myChain, myTime, myRepeat);
     }

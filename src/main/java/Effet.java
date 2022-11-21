@@ -2,9 +2,9 @@ import bandeau.Bandeau;
 
 public abstract class Effet {
 
-    private String chain;
-    private int time;
-    private int repeat;
+    protected String chain;
+    protected int time;
+    protected int repeat;
 
 
     public Effet(String myChain, int myTime, int myRepeat) {

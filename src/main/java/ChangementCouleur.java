@@ -4,14 +4,9 @@ import java.awt.*;
 
 public class ChangementCouleur extends Effet {
 
-    private String chain;
-    private int repeat;
-    private int time;
-    private Bandeau bandeau;
-
     private Color couleur;
 
-    public ChangementCouleur (String myChain, int myRepeat, int myTime, Color myCouleur) {
+    public ChangementCouleur (String myChain, int myTime, int myRepeat, Color myCouleur) {
         super(myChain, myTime, myRepeat);
         this.couleur = myCouleur;
     }
@@ -34,7 +29,6 @@ public class ChangementCouleur extends Effet {
 
     @Override
     public void runEffect(Bandeau myBandeau) {
-
         for(int i = 1; i<=getRepeat(); i++) {
             myBandeau.setMessage(getChain());
             myBandeau.setForeground(getColor());

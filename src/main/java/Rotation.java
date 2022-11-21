@@ -4,10 +4,6 @@ import java.awt.*;
 
 public class Rotation extends Effet {
 
-
-    private String chain;
-    private int repeat;
-    private int time;
     private int sens;
 
     public Rotation (String myChain, int myRepeat, int myTime, int mySens) {
@@ -38,7 +34,7 @@ public class Rotation extends Effet {
                 myBandeau.setMessage(this.chain);
                 myBandeau.sleep(this.time);
                 myBandeau.setRotation(rot);
-                rot = rot + Math.PI/6.0f;
+                rot = rot + (Math.PI/6.0f)*this.sens;
             }
         }
 

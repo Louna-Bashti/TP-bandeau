@@ -2,11 +2,6 @@ import bandeau.Bandeau;
 
 public class Clignotant extends Effet {
 
-
-    private String chain;
-    private int repeat;
-    private int time;
-
     public Clignotant (String myChain, int myRepeat, int myTime) {
         super(myChain, myTime, myRepeat);
     }
