@@ -34,11 +34,9 @@ public class Rotation extends Effet {
                 myBandeau.setMessage(this.chain);
                 myBandeau.sleep(this.time);
                 myBandeau.setRotation(rot);
-<<<<<<< HEAD
                 rot = rot + (Math.PI/6.0f)*this.sens;
-=======
-                rot = rot + Math.PI/6.0f;
->>>>>>> origin/master
+
+
             }
         }
 
